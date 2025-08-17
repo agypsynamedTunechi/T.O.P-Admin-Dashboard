@@ -249,6 +249,8 @@ nav{
 
 .navbar{
     position: fixed;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav{
@@ -265,13 +267,21 @@ nav{
 
 }
 
-.nav a{
+.nav a, .navbar h2{
     display: flex;
     gap: var(--gap);
 }
 
-.nav svg{
+.navbar svg{
     fill: var(--link-color);
+}
+
+.navbar h2{
+  font-size: 1.5rem;
+}
+
+.navbar h2 svg{
+  width: 40px;
 }
 
 /* ARTICLE SECTION */
