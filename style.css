@@ -294,7 +294,8 @@ nav{
 
 article{
     flex: 3;
-    margin: var(--gap);
+    margin-top: var(--gap);
+    margin-left: var(--gap);
 }
 
 .content{
@@ -327,7 +328,7 @@ aside{
     display: flex;
   flex-direction: column;
   margin: var(--gap);
-  gap: 3.2rem;
+  gap: 1rem;
 
 }
 /* 
